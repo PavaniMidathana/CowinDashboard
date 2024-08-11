@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.cowin-dashboard-vaccination-coverage-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #1c1c2b;
+  margin: 30px;
+}
+
+.cowin-dashboard-vaccination-coverage-heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}

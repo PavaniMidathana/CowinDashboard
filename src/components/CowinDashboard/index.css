@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.cowin-dashboard-bg-container {
+  padding: 50px;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.cowin-dashboard-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cowin-dashboard-icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.cowin-dashboard-icon-text {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cowin-dashboard-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cowin-dashboard-loading-container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cowin-dashboard-failure-container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cowin-dashboard-failure-icon {
+  height: 40vh;
+  width: 35vw;
+}
+
+.cowin-dashboard-failure-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.cowin-dashboard-success-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
